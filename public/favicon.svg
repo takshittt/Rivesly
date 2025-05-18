@@ -1,0 +1,31 @@
+<svg
+  width="300"
+  height="300"
+  viewBox="0 0 300 300"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect width="300" height="300" rx="40" fill="white" />
+  <g>
+    <path
+      d="M142.5 67.5C146.5 63.5 155.5 58 166 67.5"
+      stroke="#8BC34A"
+      stroke-width="12"
+      stroke-linecap="round"
+    />
+    <path
+      d="M138.8 85.6L78 129.2V200.8L142.8 247.5L207.5 200.8V129.2L146.8 85.6"
+      stroke="#8BC34A"
+      stroke-width="12"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M142.5 247.5V275"
+      stroke="#8BC34A"
+      stroke-width="12"
+      stroke-linecap="round"
+    />
+    <circle cx="83" cy="165" r="15" stroke="#8BC34A" stroke-width="12" />
+    <circle cx="202" cy="165" r="15" stroke="#8BC34A" stroke-width="12" />
+  </g>
+</svg> 
