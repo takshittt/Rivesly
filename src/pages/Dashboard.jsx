@@ -222,8 +222,13 @@ const Dashboard = ({ showCreateDeckModal, setShowCreateDeckModal }) => {
     setEditingDeckId(null);
   };
 
-  const handleCloseStudy = () => {
+  const handleCloseStudy = (action) => {
     setStudyingDeckId(null);
+
+    // If Review component requested to edit the deck
+    if (action === "edit") {
+      setEditingDeckId(studyingDeckId);
+    }
   };
 
   const handleEditDeck = (deckId) => {

@@ -151,6 +151,12 @@ const Review = ({ deckId, onClose }) => {
               <h2 className="text-3xl font-medium text-green-700">
                 This deck is empty. Let's fill it up!
               </h2>
+              <p
+                className="mt-8 font-medium text-green-400 cursor-pointer hover:inline-block px-4 py-2 rounded-md"
+                onClick={() => onClose("edit")}
+              >
+                Add cards here
+              </p>
             </div>
           </div>
         </div>
